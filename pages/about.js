@@ -1,7 +1,9 @@
-import withLayout from '../components/MyLayout';
-
-const aboutPageContent = <p>This is the about page</p>;
+import Layout from '../components/MyLayout';
 
 export default function About() {
-  return <Layout content={aboutPageContent} />;
+  return (
+    <Layout>
+      <p>This is the about page</p>
+    </Layout>
+  );
 }
